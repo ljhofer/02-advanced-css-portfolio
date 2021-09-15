@@ -28,7 +28,7 @@ header {
 }
 
 h1 {
-    font-size: 75px;
+    font-size: xx-large;
     padding-bottom: 25px;
     display: absolute;
     /* text-align: center; */
@@ -36,9 +36,7 @@ h1 {
 
 nav {
     display:flex;
-    font-size: 30px;
     justify-content: flex-end; 
-    font-size: 35px;
     background-color: rgb(255, 203, 146);
     padding-top: 15px;
     padding-bottom: 15px;
@@ -49,18 +47,27 @@ nav a {
     padding-right: 25px;
     text-decoration: none;
     color:black;
-
+    font-size: xx-large;
 }
 
-aside {
-    /* order:1;  */
-    display: flex;
-    width: 25%;
-    }
-
 main {
-    display:flex;
-    padding-top: 25px;
-    width: 75%;
+    /* display:flex; */
+    /* flex-wrap: wrap; */
+    /* padding-top: 25px;
+    width: 75%; */
     /* order:2; */
     }
+
+
+h2 {
+    font-size: x-large;
+    /* display:flex; */
+}
+
+.projects {
+    display:flex;
+}
+
+.card {
+    flex: 1 1 50%
+}
