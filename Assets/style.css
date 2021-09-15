@@ -1,0 +1,66 @@
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+header {
+    background-color: rgb(54, 98, 193);
+    color: white;  
+    height: 10%;
+    display: relative;
+    /* display: inline; */
+}
+
+.bitmoji {
+    border-radius: 50%;
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    width: 12%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+h1 {
+    font-size: 75px;
+    padding-bottom: 25px;
+    display: absolute;
+    /* text-align: center; */
+}
+
+nav {
+    display:flex;
+    font-size: 30px;
+    justify-content: flex-end; 
+    font-size: 35px;
+    background-color: rgb(255, 203, 146);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+nav a {
+    /* Display:inline-flex?????? */
+    padding-right: 25px;
+    text-decoration: none;
+    color:black;
+
+}
+
+aside {
+    /* order:1;  */
+    display: flex;
+    width: 25%;
+    }
+
+main {
+    display:flex;
+    padding-top: 25px;
+    width: 75%;
+    /* order:2; */
+    }
