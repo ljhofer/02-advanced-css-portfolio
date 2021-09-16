@@ -3,15 +3,19 @@
     box-sizing: border-box;
 }
 
+:root {
+    --heading:rgb(54, 98, 193);
+
+}
 
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
-    color:rgb(54, 98, 193)
+    color: var( --heading);
 }
 
 header {
-    background-color: rgb(54, 98, 193);
+    background-color:  var( --heading);
     color: white;  
     height: 10%;
     display: flex;
@@ -29,11 +33,12 @@ header {
 }
 
 h1 {
-    font-size: 85px;
+    font-size: 90px;
     margin-top: 25px;
     padding-bottom: 25px;
     margin-left: 25 px;
     color: white;
+    
 }
 
 nav {
@@ -45,32 +50,39 @@ nav {
 }
 
 nav a {
-    /* Display:inline-flex?????? */
     padding-right: 25px;
     text-decoration: none;
-    color:rgb(54, 98, 193);
+    color: var( --heading);
     font-size: xx-large;
+    font-weight: bold;
 }
 
 main {
     display:flex;
     /* flex-wrap: wrap; */
-    /* padding-top: 25px;
-    width: 75%; */
-    /* order:2; */
     }
 
 main {
     display: block;
 }
 
+section {
+    margin-top: 50px;
+}
+
 h2 {
     font-size: xx-large;
     padding: 25px;
     display: block;
-    
+    font-weight: bold;
+    text-align: center;
+
 }
 
+.about-me p {
+    text-align: center;
+    font-size: large;
+}
 
 #card-list{
     display: flex;
@@ -80,10 +92,24 @@ h2 {
 .card {
     flex: 1 1 50%;
     justify-content: center;
+    padding-left: 30px;
     /* outline: 1px solid black; */
  }
 
 #project-1 {
     flex: 1 1 100%;
-    
+}
+
+.contact {
+   
+}
+ul {
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    font-size: x-large;
+    margin-right: 25px;
+    margin-bottom: 50px;
 }
