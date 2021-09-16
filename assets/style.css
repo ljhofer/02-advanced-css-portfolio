@@ -4,7 +4,7 @@
 }
 
 :root {
-    --heading:rgb(54, 98, 193);
+    --heading:rgb(23, 58, 133);
 
 }
 
@@ -56,11 +56,15 @@ nav {
 }
 
 nav a {
-    padding-right: 25px;
+    margin-right: 25px;
     text-decoration: none;
     color: var( --heading);
     font-size: xx-large;
     font-weight: bold;
+}
+
+nav a:hover {
+    background-color: cornsilk;
 }
 
 main {
@@ -82,7 +86,10 @@ h2 {
 
 .about-me p {
     text-align: center;
-    font-size: large;
+    font-size: x-large;
+    margin-left: 50px;
+    margin-right: 50px;
+    line-height: 29px;
 }
 
 /* This is the set of cards in the Projects area of the site. */
@@ -94,14 +101,17 @@ h2 {
 
 #card-list p {
     text-align: center;
-    font-size: large;
-
+    font-size: x-large;
 }
 
 /* This is the styling for the default card settings. */
 .card {
     flex: 1 1 50%;
     padding: 30px;
+}
+
+.card:hover {
+    background-color: cornsilk;
 }
 
 .card img {
@@ -112,6 +122,7 @@ h2 {
 /* This is the first card that takes up more space than the other cards. */
  #project-1 {
     flex: 1 1 100%;
+    padding-top: 0px;
 }
    
 ul {
@@ -126,6 +137,22 @@ li {
     text-decoration: none;
 }
 
+li:hover {
+    background-color: cornsilk;
+}
+
+footer {
+    color: white;
+    background-color: var( --heading);
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+footer p {
+    padding-top: 15px;
+}
+
 /* These are the changes that are made when the screen width goes to a smaller width. */
 @media screen and (max-width: 576px) {
     .card {
@@ -133,7 +160,11 @@ li {
     }
 
     h1 {
-        font-size: 60px;
+        font-size: 50px;
+    }
+
+    nav {
+        justify-content: center;
     }
 }
     
