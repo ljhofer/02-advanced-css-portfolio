@@ -11,14 +11,16 @@
 
 <body>
     <header>
-        <img src="./Assets/images/hofer_bitmoji.png" alt="Bitmoji of Laura Hofer" class="bitmoji">
-        <h1>Laura Hofer</h1>
-        <nav>
-            <a href="#about-me">About Me</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact Me</a>        
-        </nav>
+            <img src="./Assets/images/hofer_bitmoji.png" alt="Bitmoji of Laura Hofer" class="bitmoji">
+            <h1>Laura Hofer</h1>
     </header>   
+
+    <nav>
+        <a href="#about-me">About Me</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact Me</a>        
+    </nav>
+
 
     <main>
             <section class="about-me">
@@ -26,28 +28,30 @@
                 <P>In this paragraph I will tell you all about me.</P>
             </section>
             
-            <section class="projects" id="card-list">
+            <section>
                 <h2 id="projects">Projects</h2>
-                 <div class="card">
-                    <a href="https://ljhofer.github.io/sponsor-this-cat/" target="_blank">
-                            <img src="./Assets/images/sad_huxley.jpg" alt="Picture of a sad cat" id="project-1">  
+                <div id="card-list">
+                    <div class="card" id="project-1">
+                        <a href="https://ljhofer.github.io/sponsor-this-cat/" target="_blank">
+                                <img src="./Assets/images/sad_huxley.jpg" alt="Picture of a sad cat">  
+                            </a>
+                        <p>Sponsor This Cat</p>         
+                    </div>
+                    
+                    <div class="card"  id="project-2">
+                        <a href="https://ljhofer.github.io/juanes/" target="_blank">
+                            <img src="./Assets/images/juanes.jpg" alt="X">
                         </a>
-                    <p>Sponsor This Cat</p>         
-                </div>
-                
-                <div class="card">
-                    <a href="https://ljhofer.github.io/juanes/" target="_blank">
-                        <img src="./Assets/images/juanes.jpg" alt="X" id="project-2">
-                    </a>
-                    <p>Juanes Fan Page</p>
-                </div>  
+                        <p>Juanes Fan Page</p>
+                    </div>  
 
-                <div class="card">  
-                    <a href="https://ljhofer.github.io/semantic-tagging/" target="_blank">
-                        <img src="./Assets/images/refactor.jpg" alt="X" id="project-3">
-                    </a> 
-                    <p>Refactoring with Semantic Tags</p>
-                </div>  
+                    <div class="card" id="project-3">  
+                        <a href="https://ljhofer.github.io/semantic-tagging/" target="_blank">
+                            <img src="./Assets/images/refactor.jpg" alt="X">
+                        </a> 
+                        <p>Refactoring with Semantic Tags</p>
+                    </div> 
+                </div> 
             </section>
             
             <section class="contact">

@@ -7,31 +7,33 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
+    color:rgb(54, 98, 193)
 }
 
 header {
     background-color: rgb(54, 98, 193);
     color: white;  
     height: 10%;
-    display: relative;
-    /* display: inline; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
 }
 
 .bitmoji {
     border-radius: 50%;
-    display: inline;
-    margin-left: auto;
-    margin-right: auto;
     width: 12%;
     padding-top: 25px;
     padding-bottom: 25px;
+    margin-right: 50px;
 }
 
 h1 {
-    font-size: xx-large;
+    font-size: 85px;
+    margin-top: 25px;
     padding-bottom: 25px;
-    display: absolute;
-    /* text-align: center; */
+    margin-left: 25 px;
+    color: white;
 }
 
 nav {
@@ -46,28 +48,42 @@ nav a {
     /* Display:inline-flex?????? */
     padding-right: 25px;
     text-decoration: none;
-    color:black;
+    color:rgb(54, 98, 193);
     font-size: xx-large;
 }
 
 main {
-    /* display:flex; */
+    display:flex;
     /* flex-wrap: wrap; */
     /* padding-top: 25px;
     width: 75%; */
     /* order:2; */
     }
 
-
-h2 {
-    font-size: x-large;
-    /* display:flex; */
+main {
+    display: block;
 }
 
-.projects {
-    display:flex;
+h2 {
+    font-size: xx-large;
+    padding: 25px;
+    display: block;
+    
+}
+
+
+#card-list{
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .card {
-    flex: 1 1 50%
+    flex: 1 1 50%;
+    justify-content: center;
+    /* outline: 1px solid black; */
+ }
+
+#project-1 {
+    flex: 1 1 100%;
+    
 }
