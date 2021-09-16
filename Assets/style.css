@@ -26,6 +26,7 @@ header {
     width: 100%;
 }
 
+/* This is the avatar image that appears in the heading. */
 .bitmoji {
     border-radius: 50%;
     width: 12%;
@@ -63,11 +64,6 @@ nav a {
 }
 
 main {
-    display:flex;
-    /* flex-wrap: wrap; */
-    }
-
-main {
     display: block;
 }
 
@@ -89,6 +85,7 @@ h2 {
     font-size: large;
 }
 
+/* This is the set of cards in the Projects area of the site. */
 #card-list{
     display: flex;
     flex-wrap: wrap;
@@ -100,6 +97,8 @@ h2 {
     font-size: large;
 
 }
+
+/* This is the styling for the default card settings. */
 .card {
     flex: 1 1 50%;
     padding: 30px;
@@ -110,6 +109,7 @@ h2 {
     margin: 0 auto;
 }
 
+/* This is the first card that takes up more space than the other cards. */
  #project-1 {
     flex: 1 1 100%;
 }
@@ -126,7 +126,7 @@ li {
     text-decoration: none;
 }
 
-
+/* These are the changes that are made when the screen width goes to a smaller width. */
 @media screen and (max-width: 576px) {
     .card {
         flex: 1 1 100%;
