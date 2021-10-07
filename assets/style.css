@@ -105,7 +105,8 @@ h2 {
     font-size: x-large;
 }
 
-/* This is the styling for the default card settings. */
+
+/* Styling for the default card settings. */
 .card {
     flex: 1 1 50%;
     padding: 30px;
@@ -118,6 +119,7 @@ h2 {
 .card img {
     display: block;
     margin: 0 auto;
+    width: 50%;
 }
 
 /* This is the first card that takes up more space than the other cards. */
@@ -125,7 +127,9 @@ h2 {
     flex: 1 1 100%;
     padding-top: 0px;
 }
-   
+
+
+/* Styling for Contact Me section */
 ul {
     display: flex;
     justify-content: center;
@@ -164,9 +168,20 @@ footer p {
         font-size: 50px;
     }
 
-    nav {
-        justify-content: center;
+    a, nav a {
+        margin: auto;
+        font-size: 30px;
     }
+    
+    nav {
+        justify-content: space-evenly;
+    }
+
+    a {
+        margin: auto;
+        font-size: 18px;
+    }
+
 }
 
 
