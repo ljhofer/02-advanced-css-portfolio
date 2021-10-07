@@ -13,6 +13,7 @@ body {
     font-size: 16px;
     color: var( --heading);
     background-color: lightgray;
+    width:100%;
 }
 
 header {
@@ -166,5 +167,20 @@ footer p {
     nav {
         justify-content: center;
     }
+}
+
+
+/* TODO: Make reponsive for mobile first */
+@media screen and (max-width: 375px) {
+    .card {
+        flex: 1 1 100%;
+    }
+
+    nav {
+        /* justify-content: center; */
+        width: 100%;
+    }
+
+
 }
     
