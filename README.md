@@ -11,3 +11,9 @@ Created a professional portfolio that includes About Me, Project, and Contact se
 ## Link to deployed page
 
 [Here is the link to my deployed code.](https://ljhofer.github.io/02-advanced-css-portfolio/)
+
+## Technologies used
+
+HTML, CSS
+
+## Contributor - Laura Hofer - GitHub: ljhofer
