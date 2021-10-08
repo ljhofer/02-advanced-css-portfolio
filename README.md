@@ -16,4 +16,5 @@ Created a professional portfolio that includes About Me, Project, and Contact se
 
 HTML, CSS
 
-## Contributor - Laura Hofer - GitHub: ljhofer
+## Contributor
+Laura Hofer - GitHub: ljhofer
