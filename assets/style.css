@@ -103,8 +103,21 @@ h2 {
 #card-list p {
     text-align: center;
     font-size: x-large;
+    padding: 5px;
 }
 
+.link {
+   display: flex; 
+   justify-content: center;
+   padding: 5px;
+   text-decoration: none;
+   color: rgb(238, 103, 54);
+}
+
+.link:hover {
+    color: navy;
+
+}
 
 /* Styling for the default card settings. */
 .card {
@@ -133,6 +146,7 @@ h2 {
 ul {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 li {
@@ -140,6 +154,7 @@ li {
     margin-right: 25px;
     margin-bottom: 50px;
     text-decoration: none;
+    
 }
 
 li:hover {
@@ -192,7 +207,7 @@ footer p {
     }
 
     nav {
-        /* justify-content: center; */
+        justify-content: center;
         width: 100%;
     }
 
