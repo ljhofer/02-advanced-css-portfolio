@@ -38,14 +38,14 @@ function NavTabs({ currentPage, handlePageChange }) {
         <a style={styles.a} href="#about" onClick={() => handlePageChange('About')}
           className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}>About</a>
       
-        <a style={styles.a} href="#portfolio" onClick={() => handlePageChange('Portfolio')}
-          className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}>Portfolio</a>
+        <a style={styles.a} href="#projects" onClick={() => handlePageChange('Projects')}
+          className={currentPage === 'Projects' ? 'nav-link active' : 'nav-link'}>Projects</a>
       
+        <a style={styles.a} href="#technologies" onClick={() => handlePageChange('Technologies')}
+          className={currentPage === 'Technologies' ? 'nav-link active' : 'nav-link'}>Technologies</a>
+
         <a style={styles.a} href="#contact" onClick={() => handlePageChange('Contact')}
-          className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}>Contact</a>
-      
-        <a style={styles.a} href="#resume" onClick={() => handlePageChange('Resume')}
-          className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}>Resume</a>
+          className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}>Contact</a>  
       </nav>
     </div>
   );

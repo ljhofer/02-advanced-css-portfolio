@@ -1,51 +1,63 @@
 import React from 'react';
+import { FaGithub, FaLinkedin} from "react-icons/fa";
 
 // Styling for the HTML elements generated in this component
 const styles = {
   h1: {
     textAlign: 'center',
   },
-  div: {
-    margin: 15,
-  }, 
-  form: {
+  contactIcon: {
+    margin: 25,
+    fontSize: '7em',
+    color: 'black'
+  },
+  emailDiv: {
+    textAlign: 'center',
+    marginBottom: 55, 
+    marginTop: 25 
+  },
+  email: {
+    fontSize: '2em',
+    color: 'black',
+    textDecoration: 'none',
+    outlineWidth: 1,
+    outlineColor: '#8d968e',
+    outlineStyle: 'groove',
     backgroundColor: '#bbccbd',
-    margin: 20,
     padding: 10,
-  }
+    
+  },
+
 };
 
 // Generated the HTML to be displayed on the Contact page
 export default function Contact() {
   return (
     <div >
-      <h1 style={styles.h1}>Contact Page</h1>
+      <h1 style={styles.h1}>Check Me Out:</h1>
 
-      <form style={styles.form}>
-        <div className="form-group" style={styles.div}>
-          <label>Enter your name</label>
-          <input type="input" className="form-control" id="exampleFormControlInput2" />
+      
+        <div className="container text-center">
+          <a 
+              href="https://github.com/ljhofer" 
+              target="_blank" rel="noreferrer">
+                  <FaGithub style={styles.contactIcon}/>
+          </a>
+          <a 
+              href="https://www.linkedin.com/in/laura-hofer/" 
+              target="_blank" rel="noreferrer">
+                  <FaLinkedin style={styles.contactIcon} />
+          </a>
+        </div>  
+        <h1 style={styles.h1}>Contact Me:</h1>
+        <div style={styles.emailDiv}>  
+          <a style={styles.email}
+              href="mailto:ljhofer@gmail.com" 
+              target="_blank" rel="noreferrer">
+              ljhofer@gmail.com
+          </a>
         </div>
-                
-        <div className="form-group" style={styles.div}>
-          <label>Enter your email address</label>
-          <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="name@example.com" />
-        </div>
-     
-        <div className="form-group" style={styles.div}>
-          <label>Enter your message</label>
-          <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-        </div>
-
-        <div style={styles.div}>
-          <button type="submit" className="btn btn-secondary btn-lg">Submit</button>
-        </div>
-      </form>
-
-
-
-
-
+      
     </div>
   );
 }

@@ -1,6 +1,6 @@
 import React from "react";
 
-import { FaGithub, FaTwitterSquare, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 
 // Styling for the HTML elements generated with this component
 const styles = {
@@ -23,11 +23,6 @@ export default function Footer () {
               href="https://github.com/ljhofer" 
               target="_blank" rel="noreferrer">
                   <FaGithub style={styles.footerIcon}/>
-          </a>
-          <a  
-              href="http://twitter.com/Lolobeanshofer" 
-              target="_blank" rel="noreferrer">
-                  <FaTwitterSquare style={styles.footerIcon} />
           </a>
           <a 
               href="https://www.linkedin.com/in/laura-hofer/" 

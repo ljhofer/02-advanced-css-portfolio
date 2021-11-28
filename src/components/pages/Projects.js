@@ -30,11 +30,11 @@ const styles = {
 
 
 // Generated the HTML that is displayed on the Portfolio page
-export default function Portfolio() {
+export default function Projects() {
   return (
     <div>
-      <h1 style={styles.h1}>Portfolio</h1>
-      <section style={styles.section} className='row' id='projects'>
+      <h1 style={styles.h1}>Projects</h1>
+      <section style={styles.section} className='row' id='project-section'>
         <div style={styles.card} className="card col-10 col-md-5 col-lg-3" >
             <a href="https://captionmeme.herokuapp.com/" target="_blank" rel="noreferrer"><img className="card-img-top" src={catImage} alt="Cat looking at a computer" /></a>
             <div className="card-body">

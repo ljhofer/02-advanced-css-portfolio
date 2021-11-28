@@ -25,7 +25,7 @@ export default function About() {
       <div style={styles.div}>
         <img id='head-shot' src={headshot} alt='Laura Hofer' />
         <p style={styles.p}>
-        After teaching elementary school for 11 years, I am looking forward to transitioning into a career in web development. I love to travel and learn about different cultures, explore nature, and sample new foods.  I am an avid reader and enjoy reading many genres. In addition, I am passionate about the ethical treatment of animals. I live in Minnesota with my husband, dog, cat, and two foster chickens.
+        Full stack developer building on an education background to enhance user experience online. My objective for each project is to create an intuitive, streamlined experience. I am a lifelong learner, always following my curiousitities through reading, travel, and educational opportunities.  I have years of experience as a teacher that have solidified my interpersonal skills, my ability to be adaptive and responsive, and keep the end user in mind.
         </p>
       </div>
     </>
