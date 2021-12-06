@@ -25,7 +25,7 @@ export default function About() {
       <div style={styles.div}>
         <img id='head-shot' src={headshot} alt='Laura Hofer' />
         <p style={styles.p}>
-        Full stack developer building on an education background to enhance user experience online. My objective for each project is to create an intuitive, streamlined experience. I am a lifelong learner, always following my curiousitities through reading, travel, and educational opportunities.  I have years of experience as a teacher that have solidified my interpersonal skills, my ability to be adaptive and responsive, and keep the end user in mind.
+        Full stack developer building on an education background to enhance user experience online. My objective for each project is to create an intuitive, streamlined experience. I am a lifelong learner, always following my curiousities through reading, travel, and educational opportunities.  I have years of experience as a teacher that have solidified my interpersonal skills, my ability to be adaptive and responsive, and keep the end user in mind.
         </p>
       </div>
     </>

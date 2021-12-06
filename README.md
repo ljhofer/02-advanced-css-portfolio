@@ -28,9 +28,9 @@ This project licensed under the [MIT License](https://opensource.org/licenses/MI
 Please contact me at <ljhofer@gmail.com> to discuss contributions.
 
 ## Link
-[Link to deployed on GitHub pages.](https://ljhofer.github.io/20-react-portfolio/)
+[Link to deployed on GitHub pages.](https://ljhofer.github.io/portfolio/)
 
-[Link to project's GitHub repo.](https://github.com/ljhofer/20-react-portfolio)
+[Link to project's GitHub repo.](https://github.com/ljhofer/portfolio)
 
 ## Technologies
 The program uses HTML, CSS, Bootstrap, JavaScript, Node.js, React.
